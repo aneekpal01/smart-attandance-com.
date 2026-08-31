@@ -1,0 +1,11 @@
+# Computer Vision & AI Dependencies
+opencv-python>=4.9.0.80
+numpy>=1.26.4
+torch>=2.2.0
+torchvision>=0.17.0
+ultralytics>=8.1.0
+insightface>=0.7.3
+scikit-learn>=1.4.2
+pillow>=10.3.0
+scipy>=1.13.0
+onnxruntime>=1.17.0

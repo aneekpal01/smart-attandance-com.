@@ -1,0 +1,46 @@
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+dist/
+*.egg-info/
+*.egg
+
+# SQLite Databases & Test Artifacts
+*.db
+*.sqlite
+*.sqlite3
+test_*.db
+test_e2e_qrs/
+test_qr_codes/
+database/qr_codes/*.png
+!database/qr_codes/.gitkeep
+*.log
+
+# Node.js & React Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+dist-ssr/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp
+.pnp.js
+
+# Environment Variables & IDE Configs
+.env
+.env.local
+.env.*.local
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
